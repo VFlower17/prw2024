@@ -63,4 +63,4 @@ echo "Olá, $nome!\n";
 echo "Seu salário bruto é de R$ $salario".PHP_EOL;
 echo "Desconto do INSS: R$ $inss".PHP_EOL;
 echo "Desconto do IRPF: R$ $irpf".PHP_EOL;
-echo "Seu salário líquido é de R$ ".($salario - $inss - $descontoIrpf).".".PHP_EOL;
+echo "Seu salário líquido é de R$ ".($salario - $inss - $irpf).".".PHP_EOL;
