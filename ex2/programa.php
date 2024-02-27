@@ -1,5 +1,4 @@
 <?php
-
 // Faça um programa que receba o nome, a idade e o salário de uma pessoa assalariado e mostre quanto ele vai pagar de INSS e IRPF de acordo com seu salário e idade.
 
 // Função para calcular o desconto do INSS
@@ -65,5 +64,3 @@ echo "Seu salário bruto é de R$ $salario".PHP_EOL;
 echo "Desconto do INSS: R$ $inss".PHP_EOL;
 echo "Desconto do IRPF: R$ $irpf".PHP_EOL;
 echo "Seu salário líquido é de R$ ".($salario - $inss - $descontoIrpf).".".PHP_EOL;
-
-?>
