@@ -1,0 +1,3 @@
+Faça um programa que receba o nome, a idade e o salário de uma pessoa assalariado
+e mostre quanto ele vai pagar de INSS e IRPF de acordo com seu salário e idade.
+
