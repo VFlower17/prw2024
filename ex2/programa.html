@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programa Salário</title>
+    <title>Calcula Salário</title>
     <link rel="stylesheet" href="style.css">
     <script src="programa.php"></script>
 </head>
@@ -13,20 +13,20 @@
         <h1>Calcular INSS e IRPF</h1>
     </header>
     <form action="programa.php" method="get">
-        <div class="nome">
+        <div class="campo">
             <label for="nome">Nome: </label>
             <input type="text" name="nome" id="nome">
         </div>
-        <div class="idade">
+        <div class="campo">
             <label for="idade">Idade: </label>
             <input type="number" name="idade" id="idade">
         </div>
-        <div class="salario">
+        <div class="campo">
             <label for="salario">Salário (R$): </label>
             <input type="number" name="salario" id="salario">
         </div>
-        <button type="reset">Remover Dados</button>
-        <button type="submit">Submeter Dados</button>
+        <button type="reset" id="reset">Remover Dados</button>
+        <button type="submit" id="submit">Submeter Dados</button>
     </form>
 </body>
 </html>
